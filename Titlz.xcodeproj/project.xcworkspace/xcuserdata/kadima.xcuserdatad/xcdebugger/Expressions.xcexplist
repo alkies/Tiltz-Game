@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ControlVC.outputAccelData(acceleration:):ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "circle_Original_Y">
+            </PersistentString>
+            <PersistentString
+               value = "circle_Original_X ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.peripheralManager(_:didReceiveWrite:):ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stopwatchcounter">
+            </PersistentString>
+            <PersistentString
+               value = "imMaster">
+            </PersistentString>
+            <PersistentString
+               value = "centralManager">
+            </PersistentString>
+            <PersistentString
+               value = "opponentstime">
+            </PersistentString>
+            <PersistentString
+               value = "randomnumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.onTick_10msecond():ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stopwatchcounter">
+            </PersistentString>
+            <PersistentString
+               value = "opponentstime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.cancelButtonTapped():ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedPeripheral.state">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.playSound():ControlVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.view_BigCircle.getter:ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imMaster">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.startGame():ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imMaster">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.peripheralManager.getter:ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imMaster">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.peripheral(_:didDiscoverCharacteristicsFor:error:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.IamMasterTimer():ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imMaster">
+            </PersistentString>
+            <PersistentString
+               value = "selectedPeripheral!.state">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlVC.peripheral(_:didDiscoverCharacteristicsFor:error:):ControlVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedPeripheral.state">
+            </PersistentString>
+            <PersistentString
+               value = "imMasterFail">
+            </PersistentString>
+            <PersistentString
+               value = "imMasterTimein">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
