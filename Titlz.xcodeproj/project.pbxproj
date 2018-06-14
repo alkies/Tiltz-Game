@@ -30,6 +30,8 @@
 		C22AE80920D060EC002E704F /* Arrow_Red_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C22AE80520D060EB002E704F /* Arrow_Red_down.png */; };
 		C22AE80A20D060EC002E704F /* Arrow_Red_left.png in Resources */ = {isa = PBXBuildFile; fileRef = C22AE80620D060EC002E704F /* Arrow_Red_left.png */; };
 		C22AE80B20D060EC002E704F /* Arrow_Red_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C22AE80720D060EC002E704F /* Arrow_Red_up.png */; };
+		C24FEB4020D2915500020397 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FEB3E20D2915400020397 /* Fabric.framework */; };
+		C24FEB4120D2915500020397 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FEB3F20D2915400020397 /* Crashlytics.framework */; };
 		C251E01320CBCF9500E4FEFF /* ControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251E01220CBCF9500E4FEFF /* ControlVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		C22AE80520D060EB002E704F /* Arrow_Red_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_Red_down.png; sourceTree = "<group>"; };
 		C22AE80620D060EC002E704F /* Arrow_Red_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_Red_left.png; sourceTree = "<group>"; };
 		C22AE80720D060EC002E704F /* Arrow_Red_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_Red_up.png; sourceTree = "<group>"; };
+		C24FEB3E20D2915400020397 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		C24FEB3F20D2915400020397 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		C251E01220CBCF9500E4FEFF /* ControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,8 @@
 			files = (
 				C22AE7FC20D0222B002E704F /* AVFoundation.framework in Frameworks */,
 				C217F22A20CAFF0200C18F82 /* CoreBluetooth.framework in Frameworks */,
+				C24FEB4120D2915500020397 /* Crashlytics.framework in Frameworks */,
+				C24FEB4020D2915500020397 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,8 @@
 		C217F20A20CAFDE200C18F82 = {
 			isa = PBXGroup;
 			children = (
+				C24FEB3F20D2915400020397 /* Crashlytics.framework */,
+				C24FEB3E20D2915400020397 /* Fabric.framework */,
 				C217F21520CAFDE200C18F82 /* Titlz */,
 				C217F21420CAFDE200C18F82 /* Products */,
 				C217F22820CAFF0200C18F82 /* Frameworks */,
@@ -173,6 +181,7 @@
 				C217F20F20CAFDE200C18F82 /* Sources */,
 				C217F21020CAFDE200C18F82 /* Frameworks */,
 				C217F21120CAFDE200C18F82 /* Resources */,
+				C24FEB3D20D290D500020397 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -242,6 +251,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C24FEB3D20D290D500020397 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 0d3e5fc8cabc37d4ccba04e22fd0605826c43b45 25eaf7d295e20ace75fa0dfc9f6216e8797196ac6d26b828008eebd24b2aafb1";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C217F20F20CAFDE200C18F82 /* Sources */ = {
@@ -403,6 +428,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3QANE3D87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Titlz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -422,6 +451,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3QANE3D87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Titlz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
